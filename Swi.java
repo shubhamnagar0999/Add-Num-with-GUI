@@ -23,28 +23,28 @@ class Sw1 extends JFrame implements ActionListener{
         JLabel JL = new JLabel("First Number : ");
         JL.setSize(23,23);
         setLayout(null);
-        JL.setBounds(20,50,100,10);
+        JL.setBounds(50,50,100,10);
         add(JL);
 
         JT = new JTextField();
-        JT.setBounds(140,50,50,18);
+        JT.setBounds(170,50,50,18);
         add(JT);
 
         JLabel JL2 = new JLabel("Second Number : ");
-        JL2.setBounds(20,80,100,10);
+        JL2.setBounds(50,80,100,10);
         add(JL2);
 
         JT1 = new JTextField();
-        JT1.setBounds(140,80,50,18);
+        JT1.setBounds(170,80,50,18);
         add(JT1);
 
         JButton JB = new JButton();
         JB.setText("Add");
-        JB.setBounds(20,110,70,20);
+        JB.setBounds(50,110,70,20);
         add(JB);
 
         JT2 = new JTextField();
-        JT2.setBounds(140,108,50,22);
+        JT2.setBounds(170,108,50,22);
         add(JT2);
 
         JB.addActionListener(this);
